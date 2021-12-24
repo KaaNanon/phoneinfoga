@@ -11,7 +11,8 @@ if [ $os == "Linux_x86_64" ] || [ $os == "Linux_armv6" ] || [ $os == "Darwin_x86
   echo "Found version $phoneinfoga_version"
 
   echo "Downloading version $phoneinfoga_version..."
-  wget "https://github.com/sundowndev/phoneinfoga/releases/download/$phoneinfoga_version/PhoneInfoga_$os.tar.gz"
+  wget "https://githuvar <#name#> = <#value#>
+        b.com/sundowndev/phoneinfoga/releases/download/$phoneinfoga_version/PhoneInfoga_$os.tar.gz"
 
   echo "Verifying checksum..."
   curl -sSL https://github.com/sundowndev/phoneinfoga/releases/download/$phoneinfoga_version/PhoneInfoga_checksums.txt | sha256sum -c --strict --ignore-missing
